@@ -1,0 +1,82 @@
+@font-face{
+	font-family: "Open Sans";
+	scr: url(C:\OpenServer\domains\css5.loc\tasks\task-2\fonts\OpenSans.ttf);
+}
+
+
+@font-face{
+	font-family: "Oswald Bold";
+	scr: url(C:\OpenServer\domains\css5.loc\tasks\task-2\fonts\OswaldBold.ttf);
+}
+
+
+body{
+	background-color: #E25050;
+	margin: 0;
+}
+
+#container{
+	margin: 0px 20px 0px 20px;
+}
+
+
+header{
+	margin: 5px 20px 5px 20px;
+	width: 1600px;
+	height: 160px;
+	vertical-align: middle;
+	display:table-cell;
+}
+h1,h3{
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+.block{
+	margin: 5px 20px 5px 20px;
+	height: 560px;
+	text-align: center;
+	color: white;
+}
+
+.div{
+	width: 400px;
+	height: 500px;
+	margin: 5px 10px 20px 10px;
+	background-color: #d24443;
+	display: inline-block;
+}
+
+.div>h3{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+p{
+	margin-top: -10px;
+	margin-bottom: 10px;
+	line-height: 2;
+	font-size: 15px;
+	font-family: 'Oswald Bold', sans-serif;
+}
+
+.div:hover{
+	border: 2px solid #d24443;
+	background-color: #E25050;
+	transition: 0.3s;
+}
+
+.sign_up{
+	background-color: #E25050;
+	margin: auto;
+	width: 300px;
+}
+
+.sign_up h1:hover{
+	background: white; 
+	color: #d24443;
+	transition: 0.5s;
+}
